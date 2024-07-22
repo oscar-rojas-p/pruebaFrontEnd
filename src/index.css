@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+
+    /* PARA EL MODO OSCURO */
+    background-color: #000;
+    color: #fff;
+}
+
+input{
+    color:black;
+    caret-color: black;
+    padding: 10px 15px;
+    font-size: 15px;
+}
